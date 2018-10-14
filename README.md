@@ -1,284 +1,181 @@
-# About this Cool Concise Jekyll Blog Theme ğŸ¤˜ğŸ¤˜ğŸ¤˜
+## Ä¿Â¼
 
-[![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/network)
-[![GitHub issues](https://img.shields.io/github/issues/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)
-[![GitHub release](https://img.shields.io/github/release/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Gaohaoyang/gaohaoyang.github.io/master/LICENSE)
+## ¸÷²¿·ÖÏêÇé
 
-**[ä¸­æ–‡ç‰ˆ Chinese README è¯·ç‚¹å‡»è¿™é‡Œ ğŸ‡¨ğŸ‡³](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/README-zh-cn.md)**
+### Ö÷Ò³ Home
 
-With the escalation of jekyll version, but I also want to reconstruct my older blog theme, so I did reconstruction and added some features recently. My new blog theme will still be stored in this repository. I will also use this theme in the future. Now I have done basically, then I will focus on issues that users opend to make theme better.
+Ö÷Ò³Ä¬ÈÏÕ¹Ê¾5ÆªÎÄÕÂµÄÕªÒª²¿·Ö£¬ÓÃ»§µã»÷±êÌâ»òÔÄ¶ÁÈ«ÎÄºó½øÈëÎÄÕÂÒ³¡£ÓÒ²àÎª½üÆÚÎÄÕÂ¡¢·ÖÀàºÍ±êÇ©3¿éÇøÓò£¬ÓÃ»§¿ÉÒÔ¼ÌĞøÔÚÕâ²¿·ÖÌí¼ÓÇøÓò£¬Ö»ĞèĞŞ¸Ä`index.html`¼´¿É¡£
 
-**My Blog Url: [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**. If you like this theme, you can give me a star to encourage me. Welcome everyone to use it.
+### ¹éµµÒ³ Archives
 
-## Content
+°´ÕÕÄê·İ¹éµµÎÄÕÂ¡£
 
-* [Preview](#preview)
-* [Page Details](#page-details)
-    * [Home](#home)
-    * [Archives](#archives)
-    * [Categories](#categories)
-    * [Tags](#tags)
-    * [Collections](#collections)
-    * [Demo](#demo)
-    * [About](#about)
-    * [Comments](#comments)
-    * [Post Contents](#post-contents)
-    * [Code Highlight](#code-highlight)
-    * [Light Shadow](#light-shadow)
-    * [Mobile Adaptation](#mobile-adaptation)
-    * [Footer](#footer)
-    * [Statistical Analysis](#statistical-analysis)
-* [Usage](#usage)
-    * [1. Install ruby and jekyll environment](#1-install-ruby-and-jekyll-environment)
-    * [2. Copy theme code](#2-copy-theme-code)
-    * [3. Change parameter](#3-change-parameter)
-        * [Basic info](#basic-info)
-        * [Link info](#link-info)
-        * [Comments info](#comments-info)
-        * [Statistical analysis info](#statistical-analysis-info)
-    * [4. Write post](#4-write-post)
-    * [5. Local launch](#5-local-launch)
-    * [6. Push to GitHub](#6-push-to-github)
-* [Donate](#donate)
-* [Update Log](#update-log)
-* [License](#license)
+### ·ÖÀàÒ³ Categories
 
-## Preview
+°´ÕÕÎÄÕÂµÄ·ÖÀà£¬ÏÔÊ¾ÎÄÕÂ¡£
 
-First of all, let's see previews.
+### ±êÇ©Ò³ Tags
 
-Index Page
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+°´ÕÕÎÄÕÂµÄ±êÇ©ÏÔÊ¾ÎÄÕÂ¡£
 
-Post Page
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+### ÊÕ²ØÒ³ Collections
 
-## Page Details
+±¾Ò³ÊÇÓÃ`markdown`Ğ´µÄ£¬ÓÃ»§¿ÉÒÔÊÕ²Ø×Ô¼ºÏ²»¶µÄÎÄÕÂÁ´½Ó¡£
 
-### Home
+### Ä¿Â¼ Contents
 
-Index page show 5 posts excerpt as a default. Readers can click article title or read more button to see full post. There are recent posts area, categories area and tags area at the right part of the index page. You can also add an area at this part, if you change the file `index.html`.
-
-### Archives
-
-Archive post according to the year.
-
-### Categories
-
-Show posts according to the category.
-
-### Tags
-
-Show posts according to the tags.
-
-### Collections
-
-The user can collect their favorite article links with `markdown` syntax.
-
-### Demo
-
-I use *[Masonry](http://masonry.desandro.com/)* to rewrite the waterfall responsive layout. Better interactive experience.
-
-### About
-
-The user can write some introduction about theirselves and their site with `markdown` syntax.
-
-### Comments
-
-This theme supports both [disqus](https://disqus.com/) and [å¤šè¯´è¯„è®º duoshuo comments](http://duoshuo.com/). It's very easy to config your comments module.
-
-The only thing you need do is to change the `short_name` in the file `_config.yml`. As follows.
-
-```yml
-# comments
-# two ways to comment, only choose one, and use your own short name
-duoshuo_shortname: #xxx
-disqus_shortname: xxx
-```
-
-### Post Contents
-
-The post contents is fixed at the right side while page is scrolling. There will be a scroll bar on contents while it is outside the window height.
-
-### Code Highlight
-
-While the jekyll is update to 3.x.x, you can use github flavored markdown to write code.
-
-More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgrading/2-to-3/#syntax-highlighter-changed).
-
-### Light Shadow
-
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
-
-You can see the white shadow on the current item in the navbar. I call this light shadow.
-
-### Mobile Adaptation
-
-Of course, I have done a very good mobile adaptation.
-
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+Ò³Ãæ¹ö¶¯Ê±Ä¿Â¼¹Ì¶¨ÔÚÆÁÄ»ÓÒ²à£¬ÈôÄ¿Â¼¸ß¶È³¬³öÆÁÄ»¸ß¶È£¬Ä¿Â¼²úÉú¹ö¶¯Ìõ¡£
 
 ### Footer
 
-**Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [HyG](https://github.com/gaohaoyang).
+**footer** 
 
-![footer](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bepd8002j20hl02ct95.jpg)
+### Í³¼Æ
 
-### Statistical Analysis
-
-This theme supports Google Analytics and Baidu Statisticsï¼Œ you can just config the id in the file `_config.yml`, as follows.
+²©¿ÍÖ§³Ö°Ù¶ÈÍ³¼ÆºÍ Google Analytics£¬Ö»ĞèÔÚ`_config.yml`ÖĞÅäÖÃÏìÓ¦µÄid¼´¿É£¬´úÂëÈçÏÂ¡£
 
 ```yml
-# statistic analysis ç»Ÿè®¡ä»£ç 
-# ç™¾åº¦ç»Ÿè®¡ idï¼Œå°†ç»Ÿè®¡ä»£ç æ›¿æ¢ä¸ºè‡ªå·±çš„ç™¾åº¦ç»Ÿè®¡idï¼Œå³
+# statistic analysis Í³¼Æ´úÂë
+# °Ù¶ÈÍ³¼Æ id£¬½«Í³¼Æ´úÂëÌæ»»Îª×Ô¼ºµÄ°Ù¶ÈÍ³¼Æid£¬¼´
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
-# xxxxxå­—ç¬¦ä¸²
+# xxxxx×Ö·û´®
 baidu_tongji_id: xxxxxxxxxxxx
-google_analytics_id: UA-xxxxxxxx # google åˆ†æè¿½è¸ªid
+google_analytics_id: UA-xxxxxxxx # google ·ÖÎö×·×Ùid
 ```
 
-## Usage
+## ²©¿ÍÖ÷ÌâÊ¹ÓÃ·½·¨
 
-Welcome everyone to use this theme, this part shows introduction to use.
+»¶Ó­Ê¹ÓÃÕâ¸öÖ÷Ìâ£¬ÒÔÏÂ¼òµ¥ËµÒ»ÏÂÊ¹ÓÃ·½·¨¡£
 
-### 1. Install ruby and jekyll environment
+### 1. °²×° ruby ºÍ jekyll »·¾³
 
-This step and Step 5 mainly talk to you how to launch blog at local. If you don't want to launch at local, you can ignore these 2 steps. But I still strongly suggest to do this. Ensure there is nothing wrong before pushing to the github.
+ÕâÒ»²½ºÍµÚ5²½Ö÷ÒªÊÇÎªÁËÈÃ²©¿ÍÏµÍ³ÔÚ±¾µØÅÜÆğÀ´£¬Èç¹û²»ÏëÔÚ±¾µØÔËĞĞ£¬¿ÉÒÔÎŞÊÓÕâÁ½²½£¬µ«ÎÒ»¹ÊÇÇ¿ÁÒ½¨ÒéÊÔ×ÅÏÈÔÚ±¾µØÅÜÆğÀ´£¬Ã»ÓĞÊ²Ã´ÎÊÌâºóÔÙÍÆËÍµÄ GitHub ÉÏ¡£
 
-The Windows users can directly use [RubyInstaller](http://rubyinstaller.org/) to install ruby environment. Follow the prompts while installing.
+Windows ÓÃ»§¿ÉÒÔÖ±½ÓÊ¹ÓÃ [RubyInstaller](http://rubyinstaller.org/) °²×° ruby »·¾³¡£ºóĞøµÄ²Ù×÷ÖĞ¿ÉÄÜ»¹»áÌáÊ¾°²×° DevKit£¬¸ù¾İÌáÊ¾²Ù×÷¼´¿É¡£
 
-Install jekyll commands:
+½¨ÒéÊ¹ÓÃ [RubyGems ¾µÏñ- Ruby China](https://gems.ruby-china.org/) °²×° jekyll¡£
+
+°²×° jekyll ÃüÁîÈçÏÂ
 
 ```
 gem install jekyll
 ```
 
-For more details, you can view the jekyll official website. [https://jekyllrb.com/](https://jekyllrb.com/)
+ÏêÇé¿ÉÒÔ²é¿´ jekyll ¹ÙÍø¡£[https://jekyllrb.com/](https://jekyllrb.com/) »ò ÖĞÎÄ·­Òë°æ jekyll ¹ÙÍø[http://jekyllcn.com/](http://jekyllcn.com/) £¨ÖĞÎÄÎÄµµ·­ÒëÂäºóÓÚÓ¢ÎÄ¹ÙÍø£¬ÓĞĞËÈ¤ÓĞÊ±¼äµÄĞ¡»ï°é¿ÉÒÔ²ÎÓë·­Òë£¬Îª¿ªÔ´ÊÀ½ç¹±Ï×Ò»·İÁ¦Å¶~£©
 
-There may be something wrong at mac OS X El Capitan, you can see the solution at [https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011]( https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011).
+ÔÚ mac OS X El Capitan ÏµÍ³ÏÂ°²×°¿ÉÄÜ»á³öÏÖÎÊÌâ£¬½â¾ö·½°¸ÏêÇé¼û jekyll ¹ÙÍø: [ https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011]( https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011)
 
-If you are interesting in jekyll, you can see the jekyll source code at [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
+¶Ô jekyll ±¾Éí¸ĞĞËÈ¤µÄÍ¬Ñ§¿ÉÒÔ¿´¿´ jekyll Ô´Âë: [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
-![jekyll logo](http://jekyllcn.com/img/logo-2x.png)
+### 2. ¸´ÖÆ²©¿ÍÖ÷Ìâ´úÂë
 
-### 2. Copy theme code
+¿ÉÒÔÖ±½Ó clone ¡¢ÏÂÔØ »ò fork Õâ¸ö²Ö¿âµÄ´úÂë¼´¿É
 
-You can clone, download or fork this repo.
+### 3. ĞŞ¸Ä²ÎÊı
 
-### 3. Change parameter
+Ö÷ÒªĞŞ¸Ä `_config.yml` ÖĞµÄ²ÎÊıºÍ×Ô¼ºµÄÍøÕ¾Ğ¡Í¼`favicon.ico`
 
-Mainly change the parameters at file `_config.yml` and use your own `favicon.ico`.
+`_config.yml`ÎÄ¼şÖĞ
 
-#### Basic info
+#### »ù±¾ĞÅÏ¢
 
-Shows at site header part.
+Ö÷ÒªÓÃÓÚÍøÕ¾Í·²¿header¡£
 
 ```yml
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: 
+brief-intro: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "http://tqgy.github.io" # the base hostname & protocol for your site
 ```
 
-#### Link info
+#### Á´½ÓĞÅÏ¢
 
-Mainly shows at the footer of the site.
+Ö÷ÒªÓÃÓÚÍøÕ¾µ×²¿footer¡£
 
 ```yml
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
-dribbble_username:
-
-description_footer: æœ¬ç«™è®°å½•æˆ‘å‰ç«¯ä¹‹æ—…çš„æ²¿é€”é£æ™¯ï¼
+github_username:  
+description_footer: ±¾Õ¾
 ```
 
-#### Comments info
+#### ÆÀÂÛĞÅÏ¢
 
-Get your own `short_name`:
+»ñÈ¡`short_name`µÄ·½·¨£º
 
-Visit https://disqus.com/ or http://duoshuo.com/. And follow the prompts at the site.
+·ÃÎÊ https://disqus.com/ »ò http://duoshuo.com/ ¸ù¾İÌáÊ¾²Ù×÷¼´¿É¡£
 
 ```yml
 # comments
 # two ways to comment, only choose one, and use your own short name
-duoshuo_shortname: #hygblog
-disqus_shortname: xxxx
+# Á½ÖÖÆÀÂÛ²å¼ş£¬Ñ¡Ò»¸ö¾ÍºÃÁË£¬Ê¹ÓÃ×Ô¼ºµÄ short_name
+duoshuo_shortname: #
+disqus_shortname: g
 ```
 
-When you done, you can also see the comments info at disqus or duoshuo admin console.
+ÔËĞĞ³É¹¦ºó£¬¿ÉÒÔÔÚ disqus »ò ¶àËµ µÄºóÌ¨¹ÜÀíÒ³¿´µ½Ïà¹ØĞÅÏ¢¡£
 
-#### Statistical analysis info
+#### Í³¼ÆĞÅÏ¢
 
-Get Google Analytics id or Baidu Statistics idï¼š
+»ñÈ¡ °Ù¶ÈÍ³¼Æid »ò Google Analytics id µÄ·½·¨£º
 
-Visit https://www.google.com/analytics/ or http://tongji.baidu.com/. And follow the prompts at the site.
-
-Of course, if you don't want any statistical and analysis info, you can type nothing at id position.
+·ÃÎÊ http://tongji.baidu.com/ »ò https://www.google.com/analytics/ ¸ù¾İÌáÊ¾²Ù×÷¼´¿É¡£µ±È»£¬Èç¹û²»ÏëÌí¼ÓÍ³¼ÆĞÅÏ¢£¬ÕâÁ½¸ö²ÎÊı¿ÉÒÔ²»Ìî¡£
 
 ```yml
-# statistic analysis ç»Ÿè®¡ä»£ç 
-# ç™¾åº¦ç»Ÿè®¡ idï¼Œå°†ç»Ÿè®¡ä»£ç æ›¿æ¢ä¸ºè‡ªå·±çš„ç™¾åº¦ç»Ÿè®¡idï¼Œå³
+# statistic analysis Í³¼Æ´úÂë
+# °Ù¶ÈÍ³¼Æ id£¬½«Í³¼Æ´úÂëÌæ»»Îª×Ô¼ºµÄ°Ù¶ÈÍ³¼Æid£¬¼´
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
-# xxxxxå­—ç¬¦ä¸²
-baidu_tongji_id: cf850xxxxxxxxxxxxxxxx
-google_analytics_id: UA-7xxxxxx-4 # google åˆ†æè¿½è¸ªid
+# xxxxx×Ö·û´®
+baidu_tongji_id: cf
+google_analytics_id: UA- # google ·ÖÎö×·×Ùid
 ```
 
-When you done, you can see UV, PV, location etc. info at your own Google Analytics or Baidu Statistic console.
+³É¹¦ºó£¬½øÈë×Ô¼ºµÄ°Ù¶ÈÍ³¼Æ»ò Google Analytics ºóÌ¨¹ÜÀí£¬¼´¿É¿´µ½ÍøÕ¾µÄ·ÃÎÊÁ¿¡¢·Ã¿ÍµÈÏà¹ØĞÅÏ¢¡£
 
-### 4. Write post
+### 4. Ğ´ÎÄÕÂ
 
-You can write posts at folder `_posts`. At the beginning of the post, you should declare layoutã€titleã€dateã€categoriesã€tagsã€author(optional) infoã€mathjax(optionalï¼Œclick [here](https://www.mathjax.org/) for more detail about `Mathjax`).
+`_posts`Ä¿Â¼ÏÂ´æ·ÅÎÄÕÂĞÅÏ¢£¬ÎÄÕÂÍ·²¿×¢Ã÷ layout(²¼¾Ö)¡¢title¡¢date¡¢categories¡¢tags¡¢author(¿ÉÑ¡)¡¢mathjax(¿ÉÑ¡£¬µã»÷[ÕâÀï](https://www.mathjax.org/)²é¿´¸ü¶à¹ØÓÚ`Mathjax`)£¬ÈçÏÂ£º
 
 ```
 ---
 layout: post
-title:  "å¯¹è¿™ä¸ª jekyll åšå®¢ä¸»é¢˜çš„æ”¹ç‰ˆå’Œé‡æ„"
+title:  "¶ÔÕâ¸ö jekyll ²©¿ÍÖ÷ÌâµÄ¸Ä°æºÍÖØ¹¹"
 date:   2016-03-12 11:40:18 +0800
 categories: jekyll
-tags: jekyll ç«¯å£ markdown Foxit RubyGems HTML CSS
-author: Haoyang Gao
+tags: jekyll ¶Ë¿Ú markdown Foxit RubyGems HTML CSS
+author: H
 mathjax: true
 ---
 ```
 
-These follow code is for making contents.
+ÏÂÃæÕâÁ½ĞĞ´úÂëÎª²úÉúÄ¿Â¼Ê±Ê¹ÓÃ
 ```
 * content
 {:toc}
 ```
 
-You can use 4 wraps as a excerpt separator. The words before separator as excerpt show in the index page. When you enter the post page, you can read full article.
+ÎÄÕÂÖĞ´æÔÚµÄ4´Î»»ĞĞÎªÕªÒª·Ö¸î·û£¬»»ĞĞÇ°µÄÄÚÈİ»áÒÔÕªÒªµÄĞÎÊ½ÏÔÊ¾ÔÚÖ÷Ò³HomeÉÏ£¬½øÈëÎÄÕÂÒ³²»Ó°Ïì¡£
 
-The wraps config is in the file `_config.yml`, as follows:
+»»ĞĞ·ûµÄÉèÖÃ¼ûÅäÖÃÎÄ¼ş`_config.yml`µÄ excerpt£¬ÈçÏÂ£º
 
 ```yml
 # excerpt
 excerpt_separator: "\n\n\n\n"
 ```
 
-You should use markdown syntax to write article, just like write readme in github.
+Ê¹ÓÃ markdown Óï·¨Ğ´ÎÄÕÂ¡£
 
-You can use 3 \`\`\` to write code block.
+´úÂë·ç¸ñÓë GitHub ÉÏ README »ò issue ÖĞµÄÒ»ÖÂ¡£Ê¹ÓÃ3¸ö\`\`\`µÄ·½Ê½¡£
 
-### 5. Local launch
+### 5. ±¾µØÔËĞĞ
 
-use command:
+±¾µØÖ´ĞĞ
 
 ```
 jekyll s
 ```
 
-Terminal shows:
+ÏÔÊ¾
 
 ```
 Configuration file: E:/GitWorkSpace/blog/_config.yml
@@ -295,105 +192,6 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-Visit localhost:4000 to see your blog!!!
+ÔÚ±¾µØ·ÃÎÊ localhost:4000 ¼´¿É¿´µ½²©¿ÍÖ÷Ò³¡£
 
-### 6. Push to GitHub
-
-If there is nothing wrong, push code to your github!
-
-## Donate
-
-You can also donate me for a coffee, and I'll do better. Thanks.
-
-|                                                                     PayPal                                                                     |                                 Wechat Pay                                  |                                   Alipay                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| [![PayPal](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)<br>Donate via PayPal ](https://www.paypal.me/gaohaoyang) | ![wechat](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bkdw3bslj206z06q3z6.jpg) | ![alipay](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bk8ikzoij20740743z5.jpg) |
-
-
-Thanks these friends!!!
-
-* 2017.07.02 received Wechat user Â¥9.99
-* 2017.06.20 received Wechat user Â¥2.22
-* 2017.06.19 received Wechat user Â¥6.66
-* 2017.05.25 received Wechat user Â¥1.00
-* 2017.05.19 received é£ä¹‹ç­ Â¥6.66
-* 2017.05.16 received å¼ é©° Â¥6.00
-* 2017.05.03 received å¸Œæˆ Â¥6.66
-* 2017.04.24 received deezer Â¥10.00
-* 2017.04.13 received Abraham Xiao Â¥30.00
-* 2017.04.11 received Wechat user Â¥4.00
-* 2017.04.01 received Elvin Zeng Â¥6.66
-* 2017.03.13 received Wechat user Â¥6.66
-* 2017.03.04 received å²è±å§† Â¥9.90
-* 2017.03.02 received æ¢¦æƒ³å°ç†Š Â¥6.66
-* 2017.02.27 received å¤å‹æ° Â¥6.66
-* 2017.02.26 received å…°ç¼˜å°å¦– Â¥10.00
-* 2017.02.25 received Wechat user Â¥6.66
-* 2017.02.22 received Wechat user Â¥6.66
-* 2017.02.15 received Wechat user Â¥10.00
-* 2017.02.06 received Light Â¥10.24
-* 2017.01.15 received Wechat user Â¥6.66
-* 2016.12.17 received HitNoah Â¥12.00
-* 2016.12.09 received æƒ…è Â¥6.60
-* 2016.11.25 received Wechat user Â¥6.66
-* 2016.11.16 received Wechat user Â¥1.00
-* 2016.10.24 received å¥‡å³° Â¥6.66
-* 2016.10.21 received æ—­å»· Â¥10.00
-* 2016.09.25 received é‘« Â¥6.66
-* 2016.08.25 received Erlend Aakre $2.50
-* 2016.08.10 received Wechat user Â¥4.40
-* 2016.07.25 received é‚“ç‚³åˆ Â¥6.66
-* 2016.07.11 received å½¦é£ Â¥6.66
-* 2016.07.07 received Klci Â¥2.50
-* 2016.05.08 received 1057 Â¥10.57
-* 2016.05.07 received å´æ— Â¥2
-* 2016.04.29 received åŒ—å½’ Â¥10
-* 2016.04.28 received é­æ¥šé˜³_Brian Â¥2
-* 2016.04.28 received è–›å½¬ Â¥8.8
-
-
-## Update Log
-
-### 2017.2.28
-
-- `[^]` fix smoothScroll bug in Tencent webview like wechat and qq.  [#22](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/22), [#48](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/48)
-
-### 2016.6.20
-
-* `[+]` Add next post and previous post link in post page.
-* `[^]` Change the sort of font-family to avoid full-width half-width characters mistake.
-* `[^]` Fix bug in tags cloud when division by zero. [#26](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/26), [#28](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/28), [#30](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/30)
-
-### 2016.5.11 v2.0.1
-
-* `[^]` Optimized code, Extracting common code to `comments.html`
-* `[+]` Add Google Analysis and Baidu Statistics
-* `[+]` Update README, add usage
-* `[+]` Add `favicon.ico`
-* `[^]` Fix bug at contents
-* `[^]` Change the content scroll bar CSS styleï¼ˆOnly for `webkit` browser kernelï¼‰
-* `[^]` Change tag a color at demo page
-* `[+]` Add busuanzi counter, show the views count at footer
-* `[+]` Add back to top button
-
-### 2016.4.27 v2.0.0
-
-* `[^]` Rewrite all codes based on jekyll 3.1.2
-* `[+]` Add excerpt at index page
-* `[+]` Add recently post, categories and tags cloud at index page
-* `[+]` Add light shadow at navbar
-* `[+]` Add archives, categories, tags page
-* `[+]` Add collections page
-* `[+]` Add comments plugin with disqus or duoshuo
-* `[+]` Mobile Adaptation
-* `[+]` Fix post contents to the right side while scrolling page
-* `[+]` Fix footer at the bottom when page height is smaller than window height
-* `[^]` Use github flavored markdown to write code block(Fenced code blocks)
-* `[^]` Rewrite the demo page with Masonry
-* `[-]` Remove jQuery and BootStrap
-
-About my old blog theme, I won't maintain any more. And I put the code at  [Gaohaoyang/old-blog](https://github.com/Gaohaoyang/old-blog).
-
-## License
-
-[MIT License](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/LICENSE.md)
+Èô°²×°ÁË Foxit ¸£ê¿pdfÔÄ¶ÁÆ÷¿ÉÄÜ»áÕ¼ÓÃ4000¶Ë¿Ú£¬¹Ø±Õ Foxit·şÎñ »òÇĞ»» jekyll ¶Ë¿Ú¼´¿É½â¾ö¡£
