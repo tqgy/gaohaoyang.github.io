@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction"
-date:   
+date:   2018-03-12 11:40:18 +0800
 categories: Algorithm
 tags: algorithm 
 author: 
