@@ -156,8 +156,7 @@ private:
             const int x = s.first;
             const int y = s.second;
             // 上下左右
-            const state_t new_states[4] = {{x-1,y}, {x+1,y},
-                    {x,y-1}, {x,y+1}};
+            const state_t new_states[4] = {{x-1,y}, {x+1,y}, {x,y-1}, {x,y+1}};
             for (int k = 0; k < 4;  ++k) {
                 if (state_is_valid(new_states[k])) {
                     // 既有标记功能又有去重功能
